@@ -1,0 +1,18 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "mindswarm"
+version = "0.0.1"
+description = "Collective AI orchestration framework."
+authors = [{ name = "Tyson Chan", email = "tyson.chan@proton.me" }]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/iteebz/mindswarm"
+repository = "https://github.com/iteebz/mindswarm"
+keywords = ["ai", "agents", "orchestration", "multi-agent", "swarm", "collective intelligence"]
+requires-python = ">=3.9,<4.0"
+
+[tool.poetry]
+packages = [{ include = "mindswarm", from = "." }]
